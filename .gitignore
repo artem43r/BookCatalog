@@ -1,0 +1,28 @@
+# Qt Creator / qmake
+*.pro.user
+*.pro.user.*
+*.user
+
+# Build output
+build/
+debug/
+release/
+Debug/
+Release/
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+moc_*
+ui_*
+qrc_*
+Makefile
+.qmake.stash
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
