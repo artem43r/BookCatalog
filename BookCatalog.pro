@@ -7,7 +7,11 @@ TARGET = BookCatalog
 
 SOURCES += \
     src/main.cpp \
-    src/mainwindow.cpp
+    src/windows/mainwindow.cpp
 
 HEADERS += \
-    src/mainwindow.h
+    src/windows/mainwindow.h
+
+INCLUDEPATH += src/windows
+
+RESOURCES += resources/resources.qrc
